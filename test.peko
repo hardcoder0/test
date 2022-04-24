@@ -1,0 +1,6 @@
+fn main(): void {
+    let names: string[][][];// = [[[["Preston Wallitsch", "Alexander Brown"]]]];
+    names[0] = [["Prestons", "Dad", "Mom"], ["jamo"]];
+    //names[1] = "Dad";
+    printstr(names[0][0][2]);
+}

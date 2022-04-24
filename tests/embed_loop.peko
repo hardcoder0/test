@@ -1,0 +1,11 @@
+fn main(): void {
+    let i: number = 0;
+    loop(i < 5) {
+        let x: number = 10;
+        loop(x > 0) {
+            printnum(x);
+            x -= 1;
+        }
+        i += 1;
+    }
+}

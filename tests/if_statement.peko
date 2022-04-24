@@ -1,0 +1,9 @@
+fn main(): void {
+    if(1 < 4) {
+        if(2 > -1) {
+            if(5 < 10) {
+                printstr("embed");
+            }
+        }
+    }
+}

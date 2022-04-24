@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/preston/dev/peko-objects_done/src/main.cxx
+LexingEngine.h
+-
+ParsingEngine.h
+-
+CLIEngine.h
+-
+iostream
+-
+fstream
+-
+string
+-
+sstream
+-
+codecvt
+-
+locale
+-
+dirent.h
+-
+filesystem
+-
+cstdlib
+-
+ctime
+-
+iostream
+-
+

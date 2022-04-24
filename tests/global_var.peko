@@ -1,0 +1,8 @@
+let name: string = "Preston";
+let age: number = 14;
+
+fn main(): void {
+    printstr("My name is: " + name);
+    printstr("My age is: ");
+    printnum(age);
+}

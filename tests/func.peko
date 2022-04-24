@@ -1,0 +1,8 @@
+fn getHello(name: string): string {
+    let hello: string = "Hello ";
+    return hello + name + "!";
+}
+
+fn main(): void {
+    printstr(getHello("preston"));
+}
